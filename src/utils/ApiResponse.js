@@ -1,9 +1,9 @@
 class ApiResponse{
-    constructor(
-        statusCode,
+    constructor( 
+        statusCode, 
         message = "Sucess", // since it's an api Response, message would be success most of the times
         data = null
-    ){
+    ){ 
         this.statusCode = statusCode;
         this.data = data;
         this.message = message;
@@ -11,4 +11,4 @@ class ApiResponse{
     }
 }
 
-export {ApiResponse}
+export { ApiResponse }
